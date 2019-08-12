@@ -75,19 +75,46 @@ console.log(selectedColors.length);/*/
 
 //  ======== Functions (statements)
 // Performing a task
-function greet(name, lastName) {
+// function greet(name, lastName) {
   // body of the Function
   // logic
-  console.log('Hello ' + name + ' ' + lastName );
-}
+  // console.log('Hello ' + name + ' ' + lastName );
+// }
 
-greet('John', 'Smith');
+// greet('John', 'Smith');
 
 // Types of Functions
 // calculating a value
 
-function square(number) {
-  return number * number
-}
+// function square(number) {
+  // return number * number
+// }
 
-console.log(square(2));
+// console.log(square(2));
+
+// ====================================== Lesson 02 ======================================
+
+//  Object oriented programming in Javascript
+// Manera base de variables y funciones
+// let baseSalary = 30_000;
+// let overtime = 10;
+// let rate = 20;
+
+// function getWage(baseSalary, overtime, rate) {
+  // return baseSalary + (overTime * rate);
+// }
+
+// Encapsulation
+// Eliminamos parametros de la funciones, mas facil de mantener y usar esa funcion.
+// let employee = {
+  // baseSalary: 30_000,
+  // overtime: 10,
+  // rate: 20,
+  // getWage: function() {
+    // return this.baseSalary + (this.overtime * this.rate);
+  // }
+// };
+// employee.getWage();
+
+// Abstraction
+//

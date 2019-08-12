@@ -1,5 +1,3 @@
-# JS-learn
-
 === Javascript lesson 02
 
 - Pragramación orientada a objetos.
@@ -26,3 +24,14 @@ Eliminamos codigo redundante = HTMLElement
 Muchas formas = Render
 
 * Beneficios = reducimos complejidad e imcrementamos reusabilidad con Encapsulation, reducimos complejidad y aislamos el impacto por modificaciones con la Abstraction, eliminamos codigo redundante con Inheritance y chau switch/case statements.
+
+= Objetos
+
+- Crear objetos
+{}; sintaxis de objetos literal
+  manera simple de definir un objetos
+s
+- Factories
+  Duplicar un objeto es problema solo si ese objeto tiene comportamientos (functions o methods)
+
+- Funciones y objetos
